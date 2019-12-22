@@ -1,0 +1,21 @@
+{
+  "name": "scarping_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^8.2.0",
+    "fs-extra": "^8.1.0",
+    "needle": "^2.4.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  }
+}
